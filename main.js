@@ -120,23 +120,65 @@
 //********************************--6--************************************************************ */
 
 
+// function loto(){
+//     let numArray=[];
+//     let randomArray=[];
+
+//     while(numArray.length<10){
+//         let userNum=Number(prompt("enter number"))
+//         if(userNum>0 && userNum<100 && numArray.indexOf(userNum)==-1 ){
+//             numArray.push(userNum)
+//         }
+//     };
+//     while(randomArray.length<50){
+//         let randomNum=Math.round(Math.random()*100);
+//         if(randomArray.indexOf(randomNum)==-1){
+//             randomArray.push(randomNum);
+//         }
+        
+//     };
+//     randomArray.forEach((random)=>{
+//         numArray.forEach((number)=>{
+//             if(random==number){
+//                 console.log("you right");
+//             }
+//         })
+//     })
+//     console.log(numArray);
+//     console.log(randomArray);
+
+// };
+
+// loto();
+
+//************************************************************************************** */
 
 
+//!1.	צרו פונקציה עם מנגנון של לולאה שרצה על אובייקט של בניין,עם שדות : גובה, רוחב, מספר קומות ומספר דירות.
+//!המנגנון מדפיס את המידע בצורה יפה ללוג, כלומר,מפתח: ערך.
+let bilding={height:200,width:300,florNum:10,apartmentNum:50,}
+
+// function objCheck(someObj){
+//     for(const objItem in someObj){
+//         console.log(`${objItem} :${someObj[objItem]}`);
+//     }
+
+// };
+
+// objCheck(bilding);
+//!2.	צרו פונקציה שמקבלת מערך של אובייקטים ומדפיסה את המידע בצורה יפה ללוג, יש לבדוק עם מערך בניינים מהסעיף הקודם. 
+ let objArray=[{height:200,width:300,florNum:10,apartmentNum:50,},{height:30,width:3200,florNum:5,apartmentNum:570,}]
+
+// function arrayObjCheck(someArray){
+//     for(const obj of someArray){
+//        for( const key in obj){
+//            console.log(`${key}  :  ${obj[key]}`);
+//        }
+// }
+// };
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+// arrayObjCheck(objArray);
 
 
 
@@ -225,16 +267,4 @@
 // };
 
 //     };
-
-
-
-
-
-
-
-
-
-
-
-
 
